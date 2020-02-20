@@ -16,6 +16,7 @@ namespace NiceProject
 
         private int CalculateSumOf(IEnumerable<int> allNumbers)
         {
+
             var sum = 0;
             foreach (var number in allNumbers)
             {
@@ -23,6 +24,8 @@ namespace NiceProject
             }
 
             return sum;
+
+
         }
     }
 }
