@@ -16,15 +16,11 @@ namespace NiceProject
 
         private int CalculateSumOf(IEnumerable<int> allNumbers)
         {
-<<<<<<< HEAD
 
-=======
-            var list = allNumbers.ToList();
->>>>>>> parent of 1d82640... Change for to foreach in sum calculator
             var sum = 0;
-            for (int i = 0; i < list.Count; i++)
+            foreach (var number in allNumbers)
             {
-                sum += list[i];
+                sum += number;
             }
 
             return sum;
